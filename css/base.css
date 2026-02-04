@@ -1,0 +1,17 @@
+:root {
+  --primary: #fff;
+  --bg: #000;
+  --molikom: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
