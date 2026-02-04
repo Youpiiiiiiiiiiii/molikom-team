@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-logo_index {
+    margin-top: 3rem;
+  }
+
+  .hero-logo_index img {
+    width: 220px;
+    transform: none;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
