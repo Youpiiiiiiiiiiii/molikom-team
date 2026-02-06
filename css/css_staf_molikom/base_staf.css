@@ -1,0 +1,18 @@
+:root {
+  --primary: #fff;
+  --bg: #48494b;
+  --molikom: #222021;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.staf {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+}

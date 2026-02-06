@@ -1,0 +1,36 @@
+:root {
+  --primary: #fff;
+  --bg: #48494b;
+  --molikom: #222021;
+  --navbar-height: 64px;
+  --sidebar-width: 200px;
+}
+
+.navbar-side {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 80px;
+  left: 0;
+  overflow-x: hidden;
+  background-color: var(--molikom);
+  padding: 20px 0 2px;
+}
+
+.navbar-nav-side {
+  padding: 0.5rem 5%;
+  flex-direction: column;
+  display: flex;
+}
+
+.navbar-side .navbar-nav-side a {
+  margin: 1rem;
+  color: var(--primary);
+  font-size: 1rem;
+  flex: 1;
+}
+
+.navbar-side .navbar-nav-side a:hover {
+  background-color: var(--bg);
+}

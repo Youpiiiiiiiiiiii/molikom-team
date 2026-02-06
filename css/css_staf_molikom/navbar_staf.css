@@ -1,24 +1,26 @@
 :root {
   --primary: #fff;
-  --bg: #000;
-  --molikom: #ff0000;
+  --bg: #48494b;
+  --molikom: #222021;
+
 }
 
 
-.navbar {
+.navbar-staf {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 6%;
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: var(--molikom);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
+  height: 80px;
 }
 
-.navbar .navbar-logo {
+.navbar-staf .navbar-logo-staf {
   display: inline-block;
 }
 
@@ -28,23 +30,23 @@
   display: block;
 }
 
-.navbar-nav {
+.navbar-nav-staf {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.navbar-nav a {
+.navbar-nav-staf a {
   color: var(--primary);
   margin: 0 1rem;
   font-size: 1.2rem;
 }
 
-.navbar .navbar-nav a:hover {
+.navbar-staf .navbar-nav-staf a:hover {
   color: var(--molikom);
 }
 
-.navbar .navbar-nav a::after {
+.navbar-staf .navbar-nav-staf a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
@@ -53,20 +55,19 @@
   transition: 0.2s linear;
 }
 
-.navbar .navbar-nav a:hover::after {
+.navbarstaf .navbar-nav-staf a:hover::after {
   transform: scaleX(0.5);
 }
 
-.navbar-extra a {
+.navbar-extra-staf a {
   color: white;
   margin-left: 1rem;
 }
 
-.navbar .navbar-extra a:hover {
+.navbar-staf .navbar-extra a:hover {
   color: var(--molikom);
 }
 
 #humberger-menu {
   display: none;
-  color: white;
 }

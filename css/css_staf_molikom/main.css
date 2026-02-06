@@ -1,0 +1,30 @@
+.staf-section {
+  margin-left: 260px;
+  padding: 4rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.staf-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.staf-card {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 15px 15px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.staf-card img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
