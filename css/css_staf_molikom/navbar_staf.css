@@ -64,10 +64,10 @@
   margin-left: 1rem;
 }
 
-.navbar-staf .navbar-extra a:hover {
+.navbar-staf .navbar-extra-staf a:hover {
   color: var(--molikom);
 }
 
-#humberger-menu {
+#humberger-menu-staf {
   display: none;
 }

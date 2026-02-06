@@ -3,11 +3,11 @@
     font-size: 75%;
   }
 
-  #humberger-menu {
+  #humberger-menu-staf {
     display: inline-block;
   }
 
-  .navbar .navbar-nav {
+  .navbar-staf .navbar-nav-staf {
     font-size: 60%;
     position: absolute;
     flex-direction: column;
@@ -19,7 +19,7 @@
     transition: 0.3s;
   }
 
-  .navbar .navbar-nav.active {
+  .navbar-staf .navbar-nav-staf.active {
     right: 0;
   }
 
